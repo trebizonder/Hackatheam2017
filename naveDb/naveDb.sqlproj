@@ -77,6 +77,10 @@
     <Build Include="Tables\Hours.sql" />
     <Build Include="Tables\Path_List.sql" />
     <Build Include="Programmability\StoredProcedures\InscriptionUser.sql" />
+    <Build Include="Programmability\StoredProcedures\AddAddress.sql" />
+    <Build Include="Programmability\StoredProcedures\AddCar.sql" />
+    <Build Include="Programmability\StoredProcedures\AddCity.sql" />
+    <Build Include="Programmability\StoredProcedures\AddHours.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="naveDb.refactorlog" />
