@@ -6,11 +6,12 @@
 	@Passwd varchar(128),
 	@FK_Address int,
 	@FK_Voiture int,
-	@BirthDate datetime
+	@BirthDate datetime,
+	@OutId int
 AS
 BEGIN
 	INSERT INTO [User] (Firstname, Lastname, Sex, Mail, Passwd, FK_Address, FK_Voiture, BirthDate) 
-	OUTPUT inserted.Id
+	OUTPUT inserted.Id INTO @OutId
 	VALUES (@Firstname, @Lastname, @Sex, @Mail, @Passwd, @FK_Address, @FK_Voiture, @BirthDate)
 END
 
