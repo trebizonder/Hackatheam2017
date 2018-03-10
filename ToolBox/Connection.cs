@@ -20,7 +20,7 @@ namespace ToolBox
             using (DbConnection c = CreateConnexion())
             {
                 c.Open();
-            }
+            } 
         }
 
         internal DbConnection CreateConnexion()
