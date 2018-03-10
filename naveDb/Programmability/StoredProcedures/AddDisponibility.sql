@@ -1,7 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[AddDisponibility]
 	@Date datetime,
 	@FK_Path int,
-	@OutId int
+	@OutId int 
 AS
 BEGIN
 	INSERT INTO Disponibility ([Date], FK_Path) 
