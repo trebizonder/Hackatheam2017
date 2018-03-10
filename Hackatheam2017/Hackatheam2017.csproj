@@ -146,15 +146,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Adress.cs" />
-    <Compile Include="Models\Car.cs" />
-    <Compile Include="Models\City.cs" />
-    <Compile Include="Models\Disponibility.cs" />
-    <Compile Include="Models\Evaluation.cs" />
-    <Compile Include="Models\Hours.cs" />
-    <Compile Include="Models\Path.cs" />
-    <Compile Include="Models\PathList.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Client\AdressC.cs" />
+    <Compile Include="Models\Client\CarC.cs" />
+    <Compile Include="Models\Client\CityC.cs" />
+    <Compile Include="Models\Client\InscriptionC.cs" />
+    <Compile Include="Models\Client\UserC.cs" />
+    <Compile Include="Models\Global\Adress.cs" />
+    <Compile Include="Models\Global\Car.cs" />
+    <Compile Include="Models\Global\City.cs" />
+    <Compile Include="Models\Global\Disponibility.cs" />
+    <Compile Include="Models\Global\Evaluation.cs" />
+    <Compile Include="Models\Global\Hours.cs" />
+    <Compile Include="Models\Global\Path.cs" />
+    <Compile Include="Models\Global\PathList.cs" />
+    <Compile Include="Models\Global\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
