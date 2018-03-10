@@ -13,9 +13,10 @@
 	@MaxPlace int
 AS
 	DECLARE @IdCity int;
+	DECLARE @IdCar int;
 
-	INSERT INTO Car (CarModel, MaxPlace)
-	VALUES (@CarModel, @MaxPlace);
+
+	Exec AddCar @CarModel=@CarModel, @MaxPlace=@MaxPlace, @OutId=@IdCar output;
 
 	SELECT @IdCity=Id FROM City WHERE PostalCode=@PostalCode AND [Name]=@NameCity;
 

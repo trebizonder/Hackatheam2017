@@ -11,7 +11,7 @@
 AS
 BEGIN
 	INSERT INTO [User] (Firstname, Lastname, Sex, Mail, Passwd, FK_Address, FK_Voiture, BirthDate) 
-	OUTPUT inserted.Id INTO @OutId
+	OUTPUT inserted.Id
 	VALUES (@Firstname, @Lastname, @Sex, @Mail, @Passwd, @FK_Address, @FK_Voiture, @BirthDate)
 END
 

@@ -10,6 +10,7 @@ namespace Hackatheam.Models
         private int _ID;
         private User _FkDriver;
         private User _FkPassager;
+        private Path _FkPath;
         private string _Note;
         private string _Description;
 
