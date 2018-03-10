@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
+using System.Text;
 using static Hackatheam2017.Models.GoogleMaps.GmClass;
 
 namespace Hackatheam2017.Models.GoogleMaps
@@ -44,8 +45,8 @@ namespace Hackatheam2017.Models.GoogleMaps
             catch (Exception ex)
             {
                 int R = 6371;
-                double dLat = (endLatitude - startLatitude).ToRadian();
-                double dLon = (endLongitude - startLongitude).ToRadian();
+                Double dLat = (endLatitude - startLatitude).ToRadian();
+                Double dLon = (endLongitude - startLongitude).ToRadian();
                 var a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2) +
                         Math.Cos(startLatitude.ToRadian()) * Math.Cos(endLatitude.ToRadian()) *
                         Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
@@ -56,7 +57,7 @@ namespace Hackatheam2017.Models.GoogleMaps
 
         }
 
-        public static double ToRadian(this double number)
+        public static Double ToRadian(this Double number)
         {
             return (number * Math.PI / 180);
         }

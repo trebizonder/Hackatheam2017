@@ -160,6 +160,8 @@
     <Compile Include="Models\Global\Path.cs" />
     <Compile Include="Models\Global\PathList.cs" />
     <Compile Include="Models\Global\User.cs" />
+    <Compile Include="Models\GoogleMaps\Directions.cs" />
+    <Compile Include="Models\GoogleMaps\GmClass.cs" />
     <Compile Include="Models\ToolBox_Security\HPassword.cs" />
     <Compile Include="Models\ViewModel\ViewModelInscription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -206,7 +208,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\GoogleMaps\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
