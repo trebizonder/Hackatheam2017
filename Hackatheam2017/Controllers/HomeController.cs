@@ -14,11 +14,10 @@ namespace Hackatheam2017.Controllers
         private Connection _con;
         public HomeController()
         {
-            _SqlAuthConnectionString = @"Server=FLORLIFE;" +
+            /*_SqlAuthConnectionString = @"Server=FLORLIFE;" +
                                        "Database=naveDb;" +
-                                       "User Id=sa;Password=tftic@2012";
-            _SqlAuthConnectionString = @"Server=tcp:navetteurserver.database.windows.net,1433;Initial Catalog=navDb;Persist Security Info=False;User ID={trebizonder};Password={tftic@2018};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-
+                                       "User Id=sa;Password=tftic@2012";*/
+            _SqlAuthConnectionString = @"Server=tcp:navetteurserver.database.windows.net,1433;Initial Catalog=navDb;Persist Security Info=False;User ID=trebizonder;Password=tftic@2018;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             _con = new Connection(_SqlAuthConnectionString, DbProviderFactories.GetFactory("System.Data.SqlClient"));
         }
 
