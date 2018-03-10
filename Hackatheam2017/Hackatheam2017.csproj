@@ -160,6 +160,8 @@
     <Compile Include="Models\Global\Path.cs" />
     <Compile Include="Models\Global\PathList.cs" />
     <Compile Include="Models\Global\User.cs" />
+    <Compile Include="Models\GoogleMaps\Directions.cs" />
+    <Compile Include="Models\GoogleMaps\GmClass.cs" />
     <Compile Include="Models\ToolBox_Security\HPassword.cs" />
     <Compile Include="Models\ViewModel\ViewModelInscription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -176,7 +178,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Properties\PublishProfiles\Hackatheam2017 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\navetteur - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\navetteur - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
