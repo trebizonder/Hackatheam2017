@@ -58,6 +58,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Post" />
+    <Folder Include="StoredProcedure" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Car.sql" />
@@ -69,8 +71,15 @@
     <Build Include="Tables\Disponibility.sql" />
     <Build Include="Tables\Hours.sql" />
     <Build Include="Tables\Path_List.sql" />
+    <Build Include="StoredProcedure\InscriptionUser.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="naveDb.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Post\City.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="naveDb.publish.xml" />
   </ItemGroup>
 </Project>
