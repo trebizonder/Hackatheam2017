@@ -81,6 +81,11 @@
     <Build Include="Programmability\StoredProcedures\AddCar.sql" />
     <Build Include="Programmability\StoredProcedures\AddCity.sql" />
     <Build Include="Programmability\StoredProcedures\AddHours.sql" />
+    <Build Include="Programmability\StoredProcedures\AddPath_List.sql" />
+    <Build Include="Programmability\StoredProcedures\AddPath.sql" />
+    <Build Include="Programmability\StoredProcedures\AddDisponibility.sql" />
+    <Build Include="Programmability\StoredProcedures\AddEvaluation.sql" />
+    <Build Include="Programmability\StoredProcedures\AddUser.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="naveDb.refactorlog" />
