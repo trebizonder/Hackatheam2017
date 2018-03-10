@@ -15,7 +15,8 @@ namespace Hackatheam2017.Models.GoogleMaps
         {
             try
             {
-                string apiUrl = "http://maps.googleapis.com/maps/api/directions/json?origin={0},{1}&destination={2},{3}&sensor=false";
+                string apiUrl = $"http://maps.googleapis.com/maps/api/directions/json?origin={0},{1}&destination={2},{3}&sensor=false";
+                apiUrl = $"https://maps.googleapis.com/maps/api/directions/json?origin=Toronto&destination=Montreal&key=AIzaSyB6sdDrBVJuTAKPr_W-n22XK9981vW-rn0";
                 apiUrl = string.Format(apiUrl,
                 startLatitude, startLongitude,
                 endLatitude.ToString(),

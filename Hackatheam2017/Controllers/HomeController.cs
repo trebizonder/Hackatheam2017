@@ -42,5 +42,10 @@ namespace Hackatheam2017.Controllers
 
             return View();
         }
+
+        public ActionResult DirecControl() {
+
+            return View();
+        }
     }
 }
