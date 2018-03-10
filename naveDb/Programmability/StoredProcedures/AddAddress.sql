@@ -5,6 +5,6 @@
 AS
 BEGIN
 	INSERT INTO Adress (Number,Street,FK_City) 
-	OUTPUT inserted.Id
+	OUTPUT inserted.Id 
 	VALUES (@Number,@Street,@FK_City)
 END
