@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackatheam2017", "Hackatheam2017\Hackatheam2017.csproj", "{7A420349-6224-421B-B173-EF9AAE63D1D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBox", "ToolBox\ToolBox.csproj", "{030121F4-700D-4509-A944-4E715E4A4525}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "naveDb", "naveDb\naveDb.sqlproj", "{A3BA3149-DB43-413B-890B-A636891B0D5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{7A420349-6224-421B-B173-EF9AAE63D1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A420349-6224-421B-B173-EF9AAE63D1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A420349-6224-421B-B173-EF9AAE63D1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030121F4-700D-4509-A944-4E715E4A4525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030121F4-700D-4509-A944-4E715E4A4525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030121F4-700D-4509-A944-4E715E4A4525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030121F4-700D-4509-A944-4E715E4A4525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

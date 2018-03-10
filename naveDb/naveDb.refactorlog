@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="b751faae-22dc-4bd9-9dd4-2e2ab0a494d1" ChangeDateTime="03/10/2018 02:08:23">
+    <Property Name="ElementName" Value="[dbo].[User].[sex]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Sex" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4671b184-cd90-4f04-b5e1-f63ae46710ce" ChangeDateTime="03/10/2018 02:18:17">
+    <Property Name="ElementName" Value="[dbo].[Evaluation].[FK-Passager]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Evaluation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FK_Passager" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="62882154-45c0-40dd-b84e-353324d543c7" ChangeDateTime="03/10/2018 02:57:21">
+    <Property Name="ElementName" Value="[dbo].[FK_Path_City]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Path]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Path_City_Departure]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4cc71f7c-3c87-4b61-b51b-f717eec604cf" ChangeDateTime="03/10/2018 03:16:22">
+    <Property Name="ElementName" Value="[dbo].[Hours].[Date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Hours]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Hour_Departure" />
+  </Operation>
+</Operations>
