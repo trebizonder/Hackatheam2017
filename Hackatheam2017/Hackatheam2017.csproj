@@ -160,6 +160,8 @@
     <Compile Include="Models\Global\Path.cs" />
     <Compile Include="Models\Global\PathList.cs" />
     <Compile Include="Models\Global\User.cs" />
+    <Compile Include="Models\ToolBox_Security\HPassword.cs" />
+    <Compile Include="Models\ViewModel\ViewModelInscription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -215,12 +217,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ToolBox\ToolBox.csproj">
-      <Project>{030121f4-700d-4509-a944-4e715e4a4525}</Project>
-      <Name>ToolBox</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
