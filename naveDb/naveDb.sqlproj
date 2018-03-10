@@ -95,5 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="naveDb.publish.xml" />
+    <None Include="Tables\MiseAJour.sql" />
   </ItemGroup>
 </Project>
