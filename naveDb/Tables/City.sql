@@ -5,3 +5,4 @@
     [Name] VARCHAR(50) NOT NULL, 
     CONSTRAINT [PK_City] PRIMARY KEY ([Id])
 )
+	
