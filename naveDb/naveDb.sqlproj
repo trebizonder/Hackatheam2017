@@ -58,8 +58,13 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
-    <Folder Include="Post" />
-    <Folder Include="StoredProcedure" />
+    <Folder Include="Scripts" />
+    <Folder Include="Programmability" />
+    <Folder Include="Programmability\StoredProcedures" />
+    <Folder Include="Views" />
+    <Folder Include="Programmability\Functions" />
+    <Folder Include="Programmability\Triggers" />
+    <Folder Include="Programmability\Types" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Car.sql" />
@@ -71,13 +76,13 @@
     <Build Include="Tables\Disponibility.sql" />
     <Build Include="Tables\Hours.sql" />
     <Build Include="Tables\Path_List.sql" />
-    <Build Include="StoredProcedure\InscriptionUser.sql" />
+    <Build Include="Programmability\StoredProcedures\InscriptionUser.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="naveDb.refactorlog" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Post\City.sql" />
+    <PostDeploy Include="Scripts\City.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="naveDb.publish.xml" />
