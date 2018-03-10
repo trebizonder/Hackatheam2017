@@ -68,5 +68,14 @@ namespace Hackatheam2017 {
                 return ResourceManager.GetString("Connection", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Server=;Initial Catalog=navDb;User ID=sa;Password=tftic@2012;.
+        /// </summary>
+        internal static string Local {
+            get {
+                return ResourceManager.GetString("Local", resourceCulture);
+            }
+        }
     }
 }

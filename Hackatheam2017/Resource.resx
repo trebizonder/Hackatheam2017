@@ -121,4 +121,7 @@
     <value>Server=tcp:navetteurserver.database.windows.net,1433;Initial Catalog=navDb;Persist Security Info=False;User ID=trebizonder;Password=tftic@2018;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</value>
     <comment>Connexion Azzure</comment>
   </data>
+  <data name="Local" xml:space="preserve">
+    <value>Server=;Initial Catalog=navDb;User ID=sa;Password=tftic@2012;</value>
+  </data>
 </root>

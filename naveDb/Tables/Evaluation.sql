@@ -5,7 +5,9 @@
     [FK_Passager] INT NOT NULL, 
     [Note] INT NOT NULL, 
     [Description] TEXT NOT NULL, 
+    [FK_Path] INT NOT NULL, 
     CONSTRAINT [PK_Evaluation] PRIMARY KEY ([Id]), 
     CONSTRAINT [FK_Evaluation_User_Driver] FOREIGN KEY ([FK_Driver]) REFERENCES [User]([Id]), 
-    CONSTRAINT [FK_Evaluation_User_Passager] FOREIGN KEY ([FK_Passager]) REFERENCES [User]([Id])
+    CONSTRAINT [FK_Evaluation_User_Passager] FOREIGN KEY ([FK_Passager]) REFERENCES [User]([Id]), 
+    CONSTRAINT [FK_Evaluation_Path] FOREIGN KEY ([FK_Path]) REFERENCES [Path]([Id])
 )

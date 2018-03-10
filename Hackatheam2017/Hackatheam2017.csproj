@@ -151,6 +151,7 @@
     <Compile Include="Models\Client\CityC.cs" />
     <Compile Include="Models\Client\InscriptionC.cs" />
     <Compile Include="Models\Client\UserC.cs" />
+    <Compile Include="Models\Form\Search.cs" />
     <Compile Include="Models\Global\Adress.cs" />
     <Compile Include="Models\Global\Car.cs" />
     <Compile Include="Models\Global\City.cs" />
@@ -163,7 +164,6 @@
     <Compile Include="Models\GoogleMaps\Directions.cs" />
     <Compile Include="Models\GoogleMaps\GmClass.cs" />
     <Compile Include="Models\ToolBox_Security\HPassword.cs" />
-    <Compile Include="Models\ViewModel\ViewModelInscription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -207,12 +207,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="EntityFrame\" />
+    <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
